@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Recipes</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <!-- привязка css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- навигационная панель  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Главная </a>
+          <a href="about.html" class="nav-link"> О нас </a>
+          <a href="tags.html" class="nav-link"> Категории </a>
+          <a href="recipes.html" class="nav-link"> Рецепты </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Свяжитесь с нами </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- конец навигационной панели -->
+    <!-- контент -->
+    <main class="page">
+      <!-- header -->
+      <header class="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>simply recipes</h1>
+            <h4>Без пыли, только рецепты</h4>
+          </div>
+        </div>
+      </header>
+      <!-- конец header -->
+      <section class="recipes-container">
+        <!-- сортировка -->
+        <div class="tags-container">
+          <h4>Рецепты</h4>
+          <div class="tags-list">
+            <a href="meat-template.html">Мясные блюда (5)</a>
+            <a href="salad-template.html">Салаты (1)</a>
+            <a href="second-template.html">Вторый блюда (3)</a>
+            <a href="drinks-template.html">Напитки (0)</a>
+            <a href="tat-template.html">Татарская кухня (2)</a>
+          </div>
+        </div>
+        <!-- конец сортировки -->
+        <!-- Список рецептов -->
+        <div class="recipes-list">
+
+
+
+          <!-- Пример рецепта -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/kistibiy.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Кыстыбый</h5>
+            <p>Подготовка : 50min | Готовка : 10min</p>
+          </a>
+          <!-- конец примера рецепта -->
+
+
+
+
+<!--         
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/ochpochmak.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Өчпочмак</h5>
+            <p>Подготовка : 120min | Готовка : 40min</p>
+          </a>
+
+
+
+
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/kartohafrance.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Картошка по-французски</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+
+
+
+
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/cesar.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Салат "Цезарь"</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+
+
+
+
+          
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/pelmeni.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Пельмени</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+
+
+
+
+
+
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/pizza.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Пицца "Пепперони"</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+
+
+
+
+
+
+
+
+     
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/jarkartoshka.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Жареный Картофель</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+         
+
+
+
+
+
+
+          
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/spagetti.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Паста "какая-то"</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+      -->
+
+
+
+
+
+
+
+
+
+        </div>
+        <!-- конец списка рецептов -->
+      </section>
+    </main>
+    <!-- конец контента -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://vk.com/kaayrat">Kabirov Ayrat</a>
+      </p>
+    </footer>
+    <!-- конец footer -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

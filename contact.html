@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Главная </a>
+          <a href="about.html" class="nav-link"> О нас </a>
+          <a href="tags.html" class="nav-link"> Категории </a>
+          <a href="recipes.html" class="nav-link"> Рецепты </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Свяжитесь с нами </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Хотите добавить свой рецепт?</h3>
+            <p>
+              Мы благодарны каждому за вклад в развитие сайта
+            </p>
+            <p>Спасибо за все, что вы делаете для нашего проекта! Мы гордимся тем, что у нас есть такие талантливые и преданные пользователи, как вы.            
+            </p>
+            <p>
+              С уважением....начинающий разработчик)
+            </p>
+          </article>
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">Ваше имя</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">Ваша почта</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">Сообщение</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                Отправить
+              </button>
+            </form>
+          </article>
+        </section>
+     <!-- featured recipes -->
+       <section class="featured-recipes">
+        <h5 class="featured-title">Популярные блюда!!!</h5>
+        <div class="recipes-list">
+          <!-- Пример рецепта -->
+          <a href="kistibiy.html" class="recipe">
+            <img
+              src="./assets/recipes/kistibiy.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Кыстыбый</h5>
+            <p>Подготовка : 50min | Готовка : 10min</p>
+          </a>
+          <!-- конец примера рецепта -->
+          <!-- Пример рецепта -->
+          <a href="ochpochmak.html" class="recipe">
+            <img
+              src="./assets/recipes/ochpochmak.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Өчпочмак</h5>
+            <p>Подготовка : 120min | Готовка : 40min</p>
+          </a>
+          <!-- конец примера рецепта -->
+          <!-- Пример рецепта -->
+          <a href="kartohafrance.html" class="recipe">
+            <img
+              src="./assets/recipes/kartohafrance.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Картошка по-французски</h5>
+            <p>Подготовка : 30min | Готовка : 5min</p>
+          </a>
+          <!-- конец примера рецепта -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://vk.com/kaayrat">Kabirov Ayrat</a>
+      </p>
+    </footer>
+    <!-- конец footer -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
